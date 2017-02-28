@@ -1,0 +1,147 @@
+.bs-example {
+	font-family: sans-serif;
+	position: relative;
+	margin: 100px;
+}
+.typeahead, .tt-query, .tt-hint {
+    border: 1px solid #b1a5a5;
+    border-radius: 3px;
+    height: 46px;
+    line-height: 30px;
+    outline: medium none;
+    padding: 8px 12px;
+    width: 700px;
+    box-shadow: 0px 0px 0px #fff!important;
+    font-family: HKGrotesk-Light, Arial;
+    font-size: 20px;
+    color: #9B9B9B;
+    margin-top: 13px;
+}
+.typeahead {
+	background-color: #FFFFFF;
+}
+.typeahead:focus {
+	border: 2px solid #0097CF;
+}
+.tt-query {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.tt-hint {
+	color: #999999;
+}
+.tt-menu {
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 12px;
+	padding: 8px 0;
+	width: 100%;
+	text-align:left;
+	font-family: HKGrotesk-Regular, Arial;
+	font-size: 20px;
+	color: #1D2731;
+}
+.tt-suggestion {
+	font-size: 22px;  /* Set suggestion dropdown font size */
+	padding: 3px 20px;
+}
+.tt-suggestion:hover {
+	cursor: pointer;
+	background-color: #0097CF;
+	color: #FFFFFF;
+}
+.tt-suggestion p {
+	margin: 0;
+}
+
+.accordion-toggle {
+    border-bottom: 1px solid #979797;
+    cursor: pointer;
+    margin: 0;
+    padding: 18px 24px;
+    position: relative;
+    font-family: HKGrotesk-Regular, Arial;
+    font-size: 14px;
+    color: #1D2731;
+}
+
+.accordion-toggle.active:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 17px;
+    width: 13px;
+    height: 15px;
+    background: url(../img/arrow.png) top center;
+    left: 0px;
+}
+.accordion-toggle.active {
+    border: none;
+}
+.accordion-toggle:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 17px;
+    width: 20px;
+    height: 17px;
+    background: url(../img/arrow.svg) no-repeat;
+    left: 0px;
+}
+.accordion-toggle.active:before{display:none;}
+.accordion-content {display: none;
+font-size: 14px;
+    color: #1D2731;
+    padding: 0px 0px;
+    border-bottom: 1px solid #979797;
+    margin-bottom: 17px;
+    padding-bottom: 8px;
+	    padding-left: 26px;
+}
+.accordion-toggle.active {
+    font-family: HKGrotesk-Bold, Arial;
+    font-size: 14px;
+    color: #5861B2;
+}
+			
+.topheading {
+font-family: "HKGrotesk-Bold", Arial;
+font-size: 30px;
+color: #1D2731
+}	
+.mainheading{
+    font-family: "HKGrotesk-Bold", Arial;
+    font-size: 28px;
+    color: #1D2731;
+    margin-top: 78px;
+}
+.subheading{
+	font-family: "HKGrotesk-Medium", Arial;
+font-size: 26px;
+color: #1D2731
+}
+.bottomheading {
+	font-family: "HKGrotesk-Bold", Arial;
+font-size: 26px;
+color: #1D2731
+}
+.footer {
+	background:#F5F5F5;
+	padding: 95px 0px;
+	margin: 80px 0px 0px 0px;
+}
+.btnfix {
+	    background: #F8931E!important;
+    color: white!important;
+    font-family: HKGrotesk-Bold, Arial!important;
+    font-size: 19px!important;
+    letter-spacing: 1px!important;
+    border-radius: 26px!important;
+    padding: 7px 27px!important;
+    margin-top: 16px!important;
+}
+.faqlist {
+    margin-left: 105px;
+    margin-top: 41px;
+}
